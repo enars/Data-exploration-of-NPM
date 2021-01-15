@@ -31,4 +31,4 @@ cat head.csv npm_projects.csv > only_npm_projects_w_header.csv
 To read the data I uploaded it in a Google Cloud Bucket, this can be done via tutorials online, or if my bucket is still active, you can access it there. Alternatively, you can run this project locally on your computer either by taking a sample of the csv with bash or in full by running a few columns at a time if there is a lack of memory.
 
 ### 4. Run the Notebook
-Download this notebook and install all dependencies, you should then be able to run the code blocks below.
+Download the notebook from this project and install all dependencies, you should then be able to run the code blocks below.
