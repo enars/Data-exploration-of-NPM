@@ -22,12 +22,11 @@ Upon download of this 24GB file, decompress from googlezip and tar so that you h
 Open bash, or zsh etc. 
 cd to the containing folder and run the following scripts to obtain the NPM projects data.
 
-<code>awk -F, '$2 ~ /NPM/' projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/npm_projects.csv
+<code>awk -F, '$2 ~ /NPM/' projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/npm_projects.csv</code>
 
-head -n 1 projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/head.csv
+<code>head -n 1 projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/head.csv</code>
 
-cat head.csv npm_projects.csv > only_npm_projects_w_header.csv
-</code>
+<code>cat head.csv npm_projects.csv > only_npm_projects_w_header.csv</code>
 
 ### 3. Read the data
 To read the data I uploaded it in a Google Cloud Bucket, this can be done via tutorials online, or if my bucket is still active, you can access it there. Alternatively, you can run this project locally on your computer either by taking a sample of the csv with bash or in full by running a few columns at a time if there is a lack of memory.
