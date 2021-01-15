@@ -29,7 +29,7 @@ cd to the containing folder and run the following scripts to obtain the NPM proj
 <code>cat head.csv npm_projects.csv > only_npm_projects_w_header.csv</code>
 
 ### 3. Read the data
-To read the data I uploaded it in a Google Cloud Bucket, this can be done via tutorials online, or if my bucket is still active, you can access it there. Alternatively, you can run this project locally on your computer either by taking a sample of the csv with bash or in full by running a few columns at a time if there is a lack of memory.
+To read the data I uploaded it in a Google Cloud Bucket, this can be done via tutorials online, or if my bucket is still active, you can access it there. Alternatively, you can run this project locally on your computer either by taking a sample of the csv with bash or in full by running a few columns at a time if there is a lack of memory. To do this, simply  comment out the line: fs... and with fs... and remove indentations in the code cell following the imports.
 
 ### 4. Run the Notebook
-Download the notebook from this project and install all dependencies, you should then be able to run the code blocks below.
+Download the notebook from this project and install all dependencies, you should then be able to run the code cells below.
