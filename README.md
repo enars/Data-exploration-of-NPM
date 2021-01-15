@@ -23,7 +23,9 @@ Open bash, or zsh etc.
 cd to the containing folder and run the following scripts to obtain the NPM projects data.
 
 <code>awk -F, '$2 ~ /NPM/' projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/npm_projects.csv
+
 head -n 1 projects_with_repository_fields-1.6.0-2020-01-12.csv > ~/head.csv
+
 cat head.csv npm_projects.csv > only_npm_projects_w_header.csv
 </code>
 
