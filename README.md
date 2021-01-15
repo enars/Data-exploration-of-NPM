@@ -5,7 +5,7 @@ The following project contains the essay and the analysis made of data related t
 It is made public for the sake of the reproducibility of the study that was based on the findings made here.
 
 ## Tools
-The tools used for this project was
+
 - this jupyter notebook with the imports mentioned in the first code cell
 - the Bash cli for cutting data
 - data downloaded from https://libraries.io/data
